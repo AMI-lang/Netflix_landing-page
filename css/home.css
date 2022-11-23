@@ -243,9 +243,9 @@ button[type="submit"] {
 }
 .animation {
   position: absolute;
-  max-width: 300px;
+  max-width: 420px;
   top: 20%;
-  left: 2%;
+  left: 12%;
 }
 .animation-vid {
   width: 100%;
