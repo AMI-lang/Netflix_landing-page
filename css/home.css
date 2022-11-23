@@ -38,6 +38,11 @@ body {
 .flex {
   display: flex;
 }
+.grid2 {
+  display: grid;
+  grid-template-columns: 323.23px 1fr;
+  gap: 50px;
+}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -191,10 +196,8 @@ button[type="submit"] {
 .fourth-section > .sec_wrap {
   padding-right: 500px;
 }
-.imgThird img {
-  width: 75%;
-  height: 100%;
-  object-fit: cover;
+.imgThird {
+  position: relative;
 }
 .thumbnail {
   padding: 0.45rem 12px;
@@ -206,7 +209,7 @@ button[type="submit"] {
   align-items: center;
   position: absolute;
   top: 60%;
-  left: 12.5%;
+  left: 10px;
 }
 .thumbnail img {
   max-width: 15%;
@@ -230,9 +233,6 @@ button[type="submit"] {
 .white {
   font-size: 14px;
   margin-bottom: 2px;
-}
-.third-section {
-  position: relative;
 }
 /* section 6 */
 .sixth-section {
